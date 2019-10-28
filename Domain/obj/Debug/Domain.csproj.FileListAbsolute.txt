@@ -1,0 +1,10 @@
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Domain\bin\Debug\Domain.dll.config
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Domain\bin\Debug\Domain.dll
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Domain\bin\Debug\Domain.pdb
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Domain\bin\Debug\EntityFramework.dll
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Domain\bin\Debug\EntityFramework.xml
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Domain\obj\Debug\Domain.dll
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Domain\obj\Debug\Domain.pdb

@@ -1,0 +1,16 @@
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\bin\Debug\Service.dll.config
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\bin\Debug\Service.dll
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\bin\Debug\Service.pdb
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\bin\Debug\Data.dll
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\bin\Debug\Domain.dll
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\bin\Debug\EntityFramework.dll
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\bin\Debug\ServicePattern.dll
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\bin\Debug\Data.pdb
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\bin\Debug\Domain.pdb
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\bin\Debug\ServicePattern.pdb
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\bin\Debug\EntityFramework.xml
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\obj\Debug\Service.dll
+C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\obj\Debug\Service.pdb
