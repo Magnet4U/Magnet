@@ -1,5 +1,6 @@
-﻿using Domain.Entities;
-using Service.Pattern;
+﻿using Data.Infrastructure;
+using Domain.Entities;
+using ServicePattern;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,13 +11,13 @@ namespace Service
 {
     public class InterviewService : Service<Interview>, IInterviewService
     {
-        static IDataBaseFactory Factory = new DataBaseFactory();
+        static IDatabaseFactory Factory = new DatabaseFactory();
         static IUnitOfWork Uok = new UnitOfWork(Factory);
         public InterviewService() : base(Uok)
         {
         }
 
-        //récupérer les chambre d'un hotel
+        //récupérer les interview d'un utilisateur
         public IEnumerable<Interview> GetInterviewByUser(int userId)
         {
             return null;

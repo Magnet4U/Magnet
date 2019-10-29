@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyFinance.Data.Infrastructure
+namespace Data.Infrastructure
 {
     public interface IRepositoryBase<T>
      where T : class

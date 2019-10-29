@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Service.Pattern
+namespace ServicePattern
 {
     public interface IService<T> : IDisposable
     where T : class
@@ -21,6 +21,7 @@ namespace Service.Pattern
         IEnumerable<T> GetAll();
 
         void Commit();
+        void dispose();
 
 
     }

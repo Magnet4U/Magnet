@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyFinance.Data.Infrastructure
+namespace Data.Infrastructure
 {
     public class UnitOfWork : IUnitOfWork
     {

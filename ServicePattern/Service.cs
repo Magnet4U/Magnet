@@ -1,5 +1,4 @@
-﻿
-using MyFinance.Data.Infrastructure;
+﻿using Data.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +8,7 @@ using System.Threading.Tasks;
 
 
 
-namespace Service.Pattern
+namespace ServicePattern
 {
     public abstract class Service<TEntity> : IService<TEntity> where TEntity : class
     {
@@ -54,6 +53,8 @@ namespace Service.Pattern
             utwk.getRepository<TEntity>().Delete(where);
         }
 
+        
+
         public virtual TEntity GetById(long id)
         {
             //  return _repository.GetById(id);
@@ -90,7 +91,7 @@ namespace Service.Pattern
         }
 
 
-        public void Dispose()
+        public void dispose()
         {
             utwk.Dispose();
         }
