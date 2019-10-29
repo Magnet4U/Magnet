@@ -14,3 +14,24 @@ C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\bin\Deb
 C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
 C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\obj\Debug\Service.dll
 C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\Service\obj\Debug\Service.pdb
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\bin\Debug\Service.dll.config
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\bin\Debug\Service.dll
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\bin\Debug\Service.pdb
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\bin\Debug\Data.dll
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\bin\Debug\Domain.dll
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\bin\Debug\EntityFramework.dll
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\bin\Debug\ServicePattern.dll
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\bin\Debug\Data.pdb
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\bin\Debug\Data.dll.config
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\bin\Debug\Domain.pdb
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\bin\Debug\Domain.dll.config
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\bin\Debug\ServicePattern.pdb
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\bin\Debug\ServicePattern.dll.config
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\bin\Debug\EntityFramework.xml
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\obj\Debug\Service.csprojAssemblyReference.cache
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\obj\Debug\Service.csproj.CopyComplete
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\obj\Debug\Service.dll
+D:\MOOTAZ\4BI\PIDEV\Magnet\Service\obj\Debug\Service.pdb

@@ -12,3 +12,21 @@ C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\ServicePattern\
 C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\ServicePattern\obj\Debug\ServicePattern.csprojResolveAssemblyReference.cache
 C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\ServicePattern\obj\Debug\ServicePattern.dll
 C:\Users\Layka\documents\visual studio 2015\Projects\Recrutement\ServicePattern\obj\Debug\ServicePattern.pdb
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\bin\Debug\ServicePattern.dll.config
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\bin\Debug\ServicePattern.dll
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\bin\Debug\ServicePattern.pdb
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\bin\Debug\Data.dll
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\bin\Debug\EntityFramework.dll
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\bin\Debug\Domain.dll
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\bin\Debug\Data.pdb
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\bin\Debug\Data.dll.config
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\bin\Debug\EntityFramework.xml
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\bin\Debug\Domain.pdb
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\bin\Debug\Domain.dll.config
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\obj\Debug\ServicePattern.csprojAssemblyReference.cache
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\obj\Debug\ServicePattern.csproj.CoreCompileInputs.cache
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\obj\Debug\ServicePattern.csproj.CopyComplete
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\obj\Debug\ServicePattern.dll
+D:\MOOTAZ\4BI\PIDEV\Magnet\ServicePattern\obj\Debug\ServicePattern.pdb
