@@ -15,5 +15,9 @@ namespace Domain.Entities
         public int cin { get; set; }
         public int telephone { get; set; }
         public string email { get; set; }
+        public List<Career> MyCareers { get; set; }
+        public List<Certification> MyCertif { get; set; }
+        public List <Competence> MyComp { get; set; }
+        public List<Diploma> MyDip { get; set; }
     }
 }

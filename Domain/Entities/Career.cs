@@ -16,5 +16,7 @@ namespace Domain.Entities
         [DataType("datetime2")]
         public DateTime? Start_date { get; set; }
         public DateTime? End_date { get; set; }
+        public int MyCondidatId { get; set; }
+        public Condidat MyCondidat { get; set; }
     }
 }

@@ -14,5 +14,7 @@ namespace Domain.Entities
         [DataType("datetime2")]
         public DateTime ObtentionDate { get; set; }
         public string DegreeTitle { get; set; }
+        public int MyCondidatId { get; set; }
+        public Condidat MyCondidat { get; set; }
     }
 }

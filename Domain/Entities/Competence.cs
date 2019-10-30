@@ -13,6 +13,8 @@ namespace Domain.Entities
         public int idComp { get; set; }
         public User idCandidate  { get; set; }
         public string descriptionCompetence { get; set; }
+        public int MyCondidatId { get; set; }
+        public Condidat MyCondidat { get; set; }
 
-}
+    }
 }
