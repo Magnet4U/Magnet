@@ -17,6 +17,11 @@ namespace Service
         {
         }
 
+        public override void Dispose()
+        {
+            throw new NotImplementedException();
+        }
+
         //récupérer les interview d'un utilisateur
         public IEnumerable<Interview> GetInterviewByUser(int userId)
         {

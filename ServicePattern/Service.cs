@@ -95,5 +95,7 @@ namespace ServicePattern
         {
             utwk.Dispose();
         }
+
+        public abstract void Dispose();
     }
 }

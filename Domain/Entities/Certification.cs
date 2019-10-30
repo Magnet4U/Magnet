@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-   public  class LicenseCertif
+   public  class Certification
     {
         [Key]
-        public int idLC { get; set; }
-        public string name { get; set; }
-        public int nbr { get; set; }
+        public int idC { get; set; }
+        [DataType("datetime2")]
+        public DateTime? ObtentionDateC { get; set; }
+        public DateTime? ExpirationDateC { get; set; }
     }
 }

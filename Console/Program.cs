@@ -14,14 +14,14 @@ namespace Console
         static void Main(string[] args)
         {
             MyDBContext ctx = new MyDBContext();
-
+            //ghada///////
 
             //Ajouter un interview à partir de la classe InterviewService 
-            IInterviewService intService = new InterviewService();
+           /* IInterviewService intService = new InterviewService();
             Interview interview = new Interview() { idInterview = 1 , lieu="Tunisie" };
             intService.Add(interview);
             intService.Commit();
-            intService.dispose();
+            intService.dispose();*/
             
 
 

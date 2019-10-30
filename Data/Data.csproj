@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configurations\CondidatConfig.cs" />
     <Compile Include="Infrastructure\DatabaseFactory.cs" />
     <Compile Include="Infrastructure\Disposable.cs" />
     <Compile Include="Infrastructure\IDatabaseFactory .cs" />
@@ -59,6 +60,30 @@
     <Compile Include="Migrations\201910271900531_InitialDatabaseCreation.cs" />
     <Compile Include="Migrations\201910271900531_InitialDatabaseCreation.Designer.cs">
       <DependentUpon>201910271900531_InitialDatabaseCreation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910301412373_ghada.user.cs" />
+    <Compile Include="Migrations\201910301412373_ghada.user.Designer.cs">
+      <DependentUpon>201910301412373_ghada.user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910301420260_ghada.condidat.cs" />
+    <Compile Include="Migrations\201910301420260_ghada.condidat.Designer.cs">
+      <DependentUpon>201910301420260_ghada.condidat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910301428253_ghada.certification.cs" />
+    <Compile Include="Migrations\201910301428253_ghada.certification.Designer.cs">
+      <DependentUpon>201910301428253_ghada.certification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910301431444_ghada.certification2.cs" />
+    <Compile Include="Migrations\201910301431444_ghada.certification2.Designer.cs">
+      <DependentUpon>201910301431444_ghada.certification2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910301443448_ghada.career.cs" />
+    <Compile Include="Migrations\201910301443448_ghada.career.Designer.cs">
+      <DependentUpon>201910301443448_ghada.career.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910301445419_ghada.diploma.cs" />
+    <Compile Include="Migrations\201910301445419_ghada.diploma.Designer.cs">
+      <DependentUpon>201910301445419_ghada.diploma.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyDBContext.cs" />
@@ -77,6 +102,24 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201910271900531_InitialDatabaseCreation.resx">
       <DependentUpon>201910271900531_InitialDatabaseCreation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910301412373_ghada.user.resx">
+      <DependentUpon>201910301412373_ghada.user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910301420260_ghada.condidat.resx">
+      <DependentUpon>201910301420260_ghada.condidat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910301428253_ghada.certification.resx">
+      <DependentUpon>201910301428253_ghada.certification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910301431444_ghada.certification2.resx">
+      <DependentUpon>201910301431444_ghada.certification2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910301443448_ghada.career.resx">
+      <DependentUpon>201910301443448_ghada.career.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910301445419_ghada.diploma.resx">
+      <DependentUpon>201910301445419_ghada.diploma.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

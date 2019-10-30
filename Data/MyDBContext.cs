@@ -18,13 +18,13 @@ namespace Data
         public DbSet<Entreprise> DBSetEntreprise { get; set; }
         public DbSet<Evaluation> DBSetEvaluation { get; set; }
         public DbSet<Event> DBSetEvent { get; set; }
-        public DbSet<ExperiencePro> DBSetExperiencePro { get; set; }
+        public DbSet<Career> DBSetCareer { get; set; }
         public DbSet<Interview> DBSetInterview { get; set; }
         public DbSet<JobOffer> DBSetJobOffer { get; set; }
         public DbSet<JobOfferPM> DBSetJobOfferPM { get; set; }
         public DbSet<JobRequest> DBSetJobRequest { get; set; }
-        public DbSet<Langue> DBSetLangue { get; set; }
-        public DbSet<LicenseCertif> DBSetLicenseCertif { get; set; }
+        public DbSet<Diploma> DBSetDiploma { get; set; }
+        public DbSet<Certification> DBSetCertification { get; set; }
         public DbSet<Message> DBSetMessage { get; set; }
         public DbSet<Notification> DBSetNotification { get; set; }
         public DbSet<Payment> DBSetPayment { get; set; }
