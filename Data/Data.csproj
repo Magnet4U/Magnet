@@ -67,6 +67,10 @@
     <Compile Include="Migrations\201910301915117_Malek.entreprise.Designer.cs">
       <DependentUpon>201910301915117_Malek.entreprise.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911021340199_Malek.updateImage.cs" />
+    <Compile Include="Migrations\201911021340199_Malek.updateImage.Designer.cs">
+      <DependentUpon>201911021340199_Malek.updateImage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyDBContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,6 +91,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201910301915117_Malek.entreprise.resx">
       <DependentUpon>201910301915117_Malek.entreprise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911021340199_Malek.updateImage.resx">
+      <DependentUpon>201911021340199_Malek.updateImage.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

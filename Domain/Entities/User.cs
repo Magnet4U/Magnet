@@ -16,6 +16,7 @@ namespace Domain.Entities
         public string password { get; set; }
        
         public string role { get; set; }
+        public string image { get; set; }
        
         public Entreprise idEntreprise { get; set; }
 

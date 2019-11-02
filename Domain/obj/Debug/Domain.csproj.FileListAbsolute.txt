@@ -39,6 +39,5 @@ C:\Users\Layka\Documents\GitHub\Magnet\Domain\bin\Debug\EntityFramework.dll
 C:\Users\Layka\Documents\GitHub\Magnet\Domain\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Layka\Documents\GitHub\Magnet\Domain\bin\Debug\EntityFramework.xml
 C:\Users\Layka\Documents\GitHub\Magnet\Domain\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Layka\Documents\GitHub\Magnet\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
 C:\Users\Layka\Documents\GitHub\Magnet\Domain\obj\Debug\Domain.dll
 C:\Users\Layka\Documents\GitHub\Magnet\Domain\obj\Debug\Domain.pdb

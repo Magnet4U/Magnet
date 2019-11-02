@@ -66,7 +66,8 @@ C:\Users\Layka\Documents\GitHub\Magnet\Data\bin\Debug\EntityFramework.xml
 C:\Users\Layka\Documents\GitHub\Magnet\Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Layka\Documents\GitHub\Magnet\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
 C:\Users\Layka\Documents\GitHub\Magnet\Data\obj\Debug\Data.Migrations.InitialDatabaseCreation.resources
+C:\Users\Layka\Documents\GitHub\Magnet\Data\obj\Debug\Data.Migrations.Malekentreprise.resources
 C:\Users\Layka\Documents\GitHub\Magnet\Data\obj\Debug\Data.csproj.GenerateResource.Cache
 C:\Users\Layka\Documents\GitHub\Magnet\Data\obj\Debug\Data.dll
 C:\Users\Layka\Documents\GitHub\Magnet\Data\obj\Debug\Data.pdb
-C:\Users\Layka\Documents\GitHub\Magnet\Data\obj\Debug\Data.Migrations.Malekentreprise.resources
+C:\Users\Layka\Documents\GitHub\Magnet\Data\obj\Debug\Data.Migrations.MalekupdateImage.resources

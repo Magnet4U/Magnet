@@ -17,9 +17,7 @@ namespace Domain.Entities
         public PostUser idPostUser
         { get; set; }
  
-        public PostEntreprise idPostEntreprise
-        { get; set; }
-
+ 
 
 
     }

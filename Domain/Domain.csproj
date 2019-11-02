@@ -57,7 +57,6 @@
     <Compile Include="Entities\Condidat.cs" />
     <Compile Include="Entities\Entreprise.cs" />
     <Compile Include="Entities\Evaluation.cs" />
-    <Compile Include="Entities\Event.cs" />
     <Compile Include="Entities\Career.cs" />
     <Compile Include="Entities\Interview.cs" />
     <Compile Include="Entities\JobOffer.cs" />
@@ -68,7 +67,6 @@
     <Compile Include="Entities\Message.cs" />
     <Compile Include="Entities\Notification.cs" />
     <Compile Include="Entities\Payment.cs" />
-    <Compile Include="Entities\PostEntreprise.cs" />
     <Compile Include="Entities\PostUser.cs" />
     <Compile Include="Entities\Quiz.cs" />
     <Compile Include="Entities\Subscribe.cs" />

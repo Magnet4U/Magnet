@@ -17,7 +17,6 @@ namespace Data
         public DbSet<Competence> DBSetCompetence { get; set; }
         public DbSet<Entreprise> DBSetEntreprise { get; set; }
         public DbSet<Evaluation> DBSetEvaluation { get; set; }
-        public DbSet<Event> DBSetEvent { get; set; }
         public DbSet<Career> DBSetCareer { get; set; }
         public DbSet<Interview> DBSetInterview { get; set; }
         public DbSet<JobOffer> DBSetJobOffer { get; set; }
@@ -28,7 +27,6 @@ namespace Data
         public DbSet<Message> DBSetMessage { get; set; }
         public DbSet<Notification> DBSetNotification { get; set; }
         public DbSet<Payment> DBSetPayment { get; set; }
-        public DbSet<PostEntreprise> DBSetPostEntreprise { get; set; }
         public DbSet<PostUser> DBSetPostUser { get; set; }
         public DbSet<Quiz> DBSetQuiz { get; set; }
         public DbSet<Subscribe> DBSetSubscribe { get; set; }
