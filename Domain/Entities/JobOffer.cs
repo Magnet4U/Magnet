@@ -17,7 +17,10 @@ namespace Domain.Entities
         public float salary { get; set; }
         public int hours { get; set; }
         public string location { get; set; }
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime Date_publication { get; set; }
         public Entreprise idEntreprise { get; set; }
+        public int MyidEntreprise { get; set; }
     }
 }

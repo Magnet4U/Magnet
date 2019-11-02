@@ -32,3 +32,13 @@ C:\Users\asus\Documents\Projet\Domain\obj\Debug\Domain.csproj.CopyComplete
 C:\Users\asus\Documents\Projet\Domain\obj\Debug\Domain.dll
 C:\Users\asus\Documents\Projet\Domain\obj\Debug\Domain.pdb
 C:\Users\asus\Documents\Projet\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Users\Layka\Documents\GitHub\Magnet\Domain\bin\Debug\Domain.dll.config
+C:\Users\Layka\Documents\GitHub\Magnet\Domain\bin\Debug\Domain.dll
+C:\Users\Layka\Documents\GitHub\Magnet\Domain\bin\Debug\Domain.pdb
+C:\Users\Layka\Documents\GitHub\Magnet\Domain\bin\Debug\EntityFramework.dll
+C:\Users\Layka\Documents\GitHub\Magnet\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Layka\Documents\GitHub\Magnet\Domain\bin\Debug\EntityFramework.xml
+C:\Users\Layka\Documents\GitHub\Magnet\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Layka\Documents\GitHub\Magnet\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Layka\Documents\GitHub\Magnet\Domain\obj\Debug\Domain.dll
+C:\Users\Layka\Documents\GitHub\Magnet\Domain\obj\Debug\Domain.pdb

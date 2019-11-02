@@ -15,6 +15,8 @@ namespace Domain.Entities
         public string description { get; set; }
         public string category { get; set; }
         public int hours { get; set; }
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime Date_publication { get; set; }
         public Entreprise idEntreprise { get; set; }
     }

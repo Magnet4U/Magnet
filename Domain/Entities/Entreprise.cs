@@ -12,8 +12,11 @@ namespace Domain.Entities
         [Key]
         public int idEntreprise { get; set; }
         public int nbEmployee { get; set; }
+        public string name { get; set; }
+        public int telephone { get; set; }
         public string introduction { get; set; }
         public List<Event>Events { get; set; }
+        public List<JobOffer> joboffers { get; set; }
 
 
     }
