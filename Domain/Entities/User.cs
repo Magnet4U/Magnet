@@ -11,10 +11,13 @@ namespace Domain.Entities
     {
         [Key]
         public int idUser { get; set; }
-        
+        public int cin { get; set; }
         public string username { get; set; }
         public string password { get; set; }
-       
+        public string firstname { get; set; }
+        public string lastname { get; set; }
+        public int telephone { get; set; }
+        public string email { get; set; }
         public string role { get; set; }
         public string image { get; set; }
        

@@ -71,3 +71,4 @@ C:\Users\Layka\Documents\GitHub\Magnet\Data\obj\Debug\Data.csproj.GenerateResour
 C:\Users\Layka\Documents\GitHub\Magnet\Data\obj\Debug\Data.dll
 C:\Users\Layka\Documents\GitHub\Magnet\Data\obj\Debug\Data.pdb
 C:\Users\Layka\Documents\GitHub\Magnet\Data\obj\Debug\Data.Migrations.MalekupdateImage.resources
+C:\Users\Layka\Documents\GitHub\Magnet\Data\obj\Debug\Data.Migrations.update.resources
