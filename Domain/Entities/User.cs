@@ -20,7 +20,7 @@ namespace Domain.Entities
         public string email { get; set; }
         public string role { get; set; }
         public string image { get; set; }
-       
+        public Nullable<System.DateTime> DateofBirth { get; set; }
         public Entreprise idEntreprise { get; set; }
 
 
