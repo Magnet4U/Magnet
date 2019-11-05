@@ -62,3 +62,17 @@ C:\Users\Layka\Documents\GitHub\Magnet\ServicePattern\bin\Debug\Domain.pdb
 C:\Users\Layka\Documents\GitHub\Magnet\ServicePattern\obj\Debug\ServicePattern.csprojResolveAssemblyReference.cache
 C:\Users\Layka\Documents\GitHub\Magnet\ServicePattern\obj\Debug\ServicePattern.dll
 C:\Users\Layka\Documents\GitHub\Magnet\ServicePattern\obj\Debug\ServicePattern.pdb
+C:\Magnet\ServicePattern\bin\Debug\ServicePattern.dll.config
+C:\Magnet\ServicePattern\bin\Debug\ServicePattern.dll
+C:\Magnet\ServicePattern\bin\Debug\ServicePattern.pdb
+C:\Magnet\ServicePattern\bin\Debug\Data.dll
+C:\Magnet\ServicePattern\bin\Debug\EntityFramework.dll
+C:\Magnet\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Magnet\ServicePattern\bin\Debug\Domain.dll
+C:\Magnet\ServicePattern\bin\Debug\Data.pdb
+C:\Magnet\ServicePattern\bin\Debug\EntityFramework.xml
+C:\Magnet\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Magnet\ServicePattern\bin\Debug\Domain.pdb
+C:\Magnet\ServicePattern\obj\Debug\ServicePattern.csprojResolveAssemblyReference.cache
+C:\Magnet\ServicePattern\obj\Debug\ServicePattern.dll
+C:\Magnet\ServicePattern\obj\Debug\ServicePattern.pdb

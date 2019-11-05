@@ -1,0 +1,70 @@
+﻿@model Domain.Entities.EntrepriseLogin
+
+@{
+    ViewBag.Title = "Login";
+
+}
+
+
+
+@using (Html.BeginForm())
+{
+
+
+    @Html.AntiForgeryToken()
+    if (Request.IsAuthenticated)
+    {
+        <div>
+            <p> You are already logged In Click here for more actions </p>
+            @Html.ActionLink("Redirect to home", "Index", "Home")
+        </div>
+
+    }
+    else
+    {
+        <div class="col-lg-6 mb-5">
+            <h2 class="mb-4">Login Entreprise</h2>
+            <form action="#" class="p-4 border rounded">
+
+              <div class="row form-group">
+                <div class="col-md-12 mb-3 mb-md-0">
+                  <label class="text-black" for="fname">Email</label>
+                    @Html.EditorFor(model => model.EmailID, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.EmailID, "", new { @class = "text-danger" })
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-12 mb-3 mb-md-0">
+                  <label class="text-black" for="fname">Password</label>
+                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                </div>
+              </div>
+              <div class="row form-group mb-4">
+                <div class="col-md-12 mb-3 mb-md-0">
+                  <label class="text-black" for="fname">Remember me</label>
+                    <div class="col-md-10">
+                        <div class="checkbox">
+                            @Html.EditorFor(model => model.RemeberMe)
+                            @Html.ValidationMessageFor(model => model.RemeberMe, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                    <input type="submit" value="Create" class="btn btn-block btn-primary btn-md" />
+                    <a href="@Url.Action("Registration", "Entreprise")" class="btn btn-block btn-primary btn-md"> Register </a>
+                </div>
+              </div>
+
+            </form>
+          </div>
+    
+
+   
+
+    }
+}
+

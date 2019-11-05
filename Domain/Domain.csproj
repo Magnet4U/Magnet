@@ -56,8 +56,11 @@
     <Compile Include="Entities\Competence.cs" />
     <Compile Include="Entities\Condidat.cs" />
     <Compile Include="Entities\Entreprise.cs" />
+    <Compile Include="Entities\EntrepriseLogin.cs" />
     <Compile Include="Entities\Evaluation.cs" />
     <Compile Include="Entities\Career.cs" />
+    <Compile Include="Entities\Extended\Entreprise.cs" />
+    <Compile Include="Entities\Extended\User.cs" />
     <Compile Include="Entities\Interview.cs" />
     <Compile Include="Entities\JobOffer.cs" />
     <Compile Include="Entities\JobOfferPM.cs" />
@@ -71,6 +74,7 @@
     <Compile Include="Entities\Quiz.cs" />
     <Compile Include="Entities\Subscribe.cs" />
     <Compile Include="Entities\User.cs" />
+    <Compile Include="Entities\UserLogin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,112 @@
+﻿@model Domain.Entities.Entreprise
+
+@{
+    ViewBag.Title = "Registration";
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+}
+@if (ViewBag.Status != null && Convert.ToBoolean(ViewBag.Status))
+{
+    if (ViewBag.Message != null)
+    {
+        <div class="alert-success">
+            <strong> Success ! </strong>@ViewBag.Message
+        </div>
+    }
+}
+else
+{
+
+    using (Html.BeginForm())
+    {
+    @Html.AntiForgeryToken() 
+if (ViewBag.Message != null)
+{
+             <div class="alert alert-danger">
+                    <strong>Error ! </strong>@ViewBag.Message
+                </div>
+}
+
+
+
+
+
+<div class="container">
+
+    <div class="row align-items-center mb-5">
+        <div class="col-lg-8 mb-4 mb-lg-0">
+            <div class="d-flex align-items-center">
+                <div>
+                    <h2>Register </h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="row">       
+                <div class="col-6">
+                    <a href="@Url.Action("Login", "Entreprise")" class="btn btn-block btn-primary btn-md"> Log in </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col-lg-12">
+            <form class="p-4 p-md-5 border rounded" method="post">
+
+                <div class="form-group">
+                    <label for="email">Name</label>
+                    @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label for="job-title">Email</label>
+                    @Html.EditorFor(model => model.EmailID, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.EmailID, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label for="job-location">Telephone</label>
+                    @Html.EditorFor(model => model.telephone, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.telephone, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label for="company-name">Introduction</label>
+                    @Html.EditorFor(model => model.introduction, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.introduction, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <label for="company-tagline">Number of Employees</label>
+                    @Html.EditorFor(model => model.nbEmployee, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.nbEmployee, "", new { @class = "text-danger" })
+                </div>      
+                <div class="form-group">
+                    <label for="company-website">Password</label>
+                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <label for="company-website-fb">Confirm Password</label>     
+                    @Html.EditorFor(model => model.ConfirmPassword, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })           
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+    <div class="row align-items-center mb-5">
+
+        <div class="col-lg-4 ml-auto">
+            <div class="row">
+                <div class="col-6">
+                    <a href="#" class="btn btn-block btn-light btn-md"><span class="icon-open_in_new mr-2"></span>Preview</a>
+                </div>
+                <div class="col-6">
+                    <input type="submit" value="Create" class="btn btn-block btn-primary btn-md" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    }
+}

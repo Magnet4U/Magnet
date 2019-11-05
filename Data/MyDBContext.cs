@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 using Domain.Entities;
+using Data.Configurations;
 
 namespace Data
 {
@@ -31,7 +32,14 @@ namespace Data
         public DbSet<Quiz> DBSetQuiz { get; set; }
         public DbSet<Subscribe> DBSetSubscribe { get; set; }
         public DbSet<User> DBSetUser { get; set; }
-     
+        public DbSet<EntrepriseLogin> DBSetEntrepriseLogin { get; set; }
+        public DbSet<UserLogin> DBSetUserLogin { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Configurations.Add(new EntrepriseConfig());
+        }
+
 
     }
 }

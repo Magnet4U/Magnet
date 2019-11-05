@@ -3,7 +3,7 @@ namespace Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitialDatabaseCreation : DbMigration
+    public partial class initiall : DbMigration
     {
         public override void Up()
         {
@@ -33,6 +33,7 @@ namespace Data.Migrations
                         hours = c.Int(nullable: false),
                         location = c.String(),
                         Date_publication = c.DateTime(nullable: false),
+                        MyidEntreprise = c.Int(nullable: false),
                         idEntreprise_idEntreprise = c.Int(),
                     })
                 .PrimaryKey(t => t.id_JobOffer)
@@ -44,39 +45,36 @@ namespace Data.Migrations
                 c => new
                     {
                         idEntreprise = c.Int(nullable: false, identity: true),
+                        name = c.String(nullable: false),
+                        EmailID = c.String(nullable: false),
+                        Password = c.String(),
+                        IsEmailVerified = c.Boolean(nullable: false),
+                        ActivationCode = c.Guid(nullable: false),
+                        telephone = c.Int(nullable: false),
+                        introduction = c.String(nullable: false),
                         nbEmployee = c.Int(nullable: false),
-                        introduction = c.String(),
+                        image = c.String(),
+                        ConfirmPassword = c.String(),
                     })
                 .PrimaryKey(t => t.idEntreprise);
-            
-            CreateTable(
-                "dbo.Events",
-                c => new
-                    {
-                        idEvent = c.Int(nullable: false, identity: true),
-                        idEntreprise_idEntreprise = c.Int(),
-                    })
-                .PrimaryKey(t => t.idEvent)
-                .ForeignKey("dbo.Entreprises", t => t.idEntreprise_idEntreprise)
-                .Index(t => t.idEntreprise_idEntreprise);
             
             CreateTable(
                 "dbo.Users",
                 c => new
                     {
                         idUser = c.Int(nullable: false, identity: true),
+                        ConfirmPassword = c.String(),
+                        firstname = c.String(nullable: false),
+                        lastname = c.String(nullable: false),
+                        DateofBirth = c.DateTime(),
                         cin = c.Int(nullable: false),
-                        username = c.String(),
-                        password = c.String(),
-                        firstname = c.String(),
-                        lastname = c.String(),
                         telephone = c.Int(nullable: false),
-                        email = c.String(),
+                        email = c.String(nullable: false),
+                        password = c.String(),
                         role = c.String(),
-                        experience_prof = c.String(),
-                        formation = c.String(),
-                        certification = c.String(),
-                        liste_activite = c.String(),
+                        image = c.String(),
+                        IsEmailVerified = c.Boolean(nullable: false),
+                        ActivationCode = c.Guid(nullable: false),
                         idEntreprise_idEntreprise = c.Int(),
                     })
                 .PrimaryKey(t => t.idUser)
@@ -84,16 +82,64 @@ namespace Data.Migrations
                 .Index(t => t.idEntreprise_idEntreprise);
             
             CreateTable(
+                "dbo.Careers",
+                c => new
+                    {
+                        idCAR = c.Int(nullable: false, identity: true),
+                        Career_title = c.String(),
+                        Carrer_description = c.String(),
+                        Start_date = c.DateTime(),
+                        End_date = c.DateTime(),
+                        MyCondidatId = c.Int(nullable: false),
+                        MyCondidat_idUser = c.Int(),
+                    })
+                .PrimaryKey(t => t.idCAR)
+                .ForeignKey("dbo.Condidat", t => t.MyCondidat_idUser)
+                .Index(t => t.MyCondidat_idUser);
+            
+            CreateTable(
+                "dbo.Certifications",
+                c => new
+                    {
+                        idC = c.Int(nullable: false, identity: true),
+                        ObtentionDateC = c.DateTime(),
+                        ExpirationDateC = c.DateTime(),
+                        MyCondidatId = c.Int(nullable: false),
+                        MyCondidat_idUser = c.Int(),
+                    })
+                .PrimaryKey(t => t.idC)
+                .ForeignKey("dbo.Condidat", t => t.MyCondidat_idUser)
+                .Index(t => t.MyCondidat_idUser);
+            
+            CreateTable(
                 "dbo.Competences",
                 c => new
                     {
                         idComp = c.Int(nullable: false, identity: true),
                         descriptionCompetence = c.String(),
+                        MyCondidatId = c.Int(nullable: false),
                         idCandidate_idUser = c.Int(),
+                        MyCondidat_idUser = c.Int(),
                     })
                 .PrimaryKey(t => t.idComp)
                 .ForeignKey("dbo.Users", t => t.idCandidate_idUser)
-                .Index(t => t.idCandidate_idUser);
+                .ForeignKey("dbo.Condidat", t => t.MyCondidat_idUser)
+                .Index(t => t.idCandidate_idUser)
+                .Index(t => t.MyCondidat_idUser);
+            
+            CreateTable(
+                "dbo.Diplomata",
+                c => new
+                    {
+                        idD = c.Int(nullable: false, identity: true),
+                        ObtentionDate = c.DateTime(nullable: false),
+                        DegreeTitle = c.String(),
+                        MyCondidatId = c.Int(nullable: false),
+                        MyCondidat_idUser = c.Int(),
+                    })
+                .PrimaryKey(t => t.idD)
+                .ForeignKey("dbo.Condidat", t => t.MyCondidat_idUser)
+                .Index(t => t.MyCondidat_idUser);
             
             CreateTable(
                 "dbo.ApplyJobs",
@@ -130,28 +176,11 @@ namespace Data.Migrations
                         idComment = c.Int(nullable: false, identity: true),
                         contenuComment = c.String(),
                         date_publication = c.DateTime(nullable: false),
-                        idPostEntreprise_idPostU = c.Int(),
                         idPostUser_idPostU = c.Int(),
                     })
                 .PrimaryKey(t => t.idComment)
-                .ForeignKey("dbo.PostEntreprises", t => t.idPostEntreprise_idPostU)
                 .ForeignKey("dbo.PostUsers", t => t.idPostUser_idPostU)
-                .Index(t => t.idPostEntreprise_idPostU)
                 .Index(t => t.idPostUser_idPostU);
-            
-            CreateTable(
-                "dbo.PostEntreprises",
-                c => new
-                    {
-                        idPostU = c.Int(nullable: false, identity: true),
-                        contenu = c.String(),
-                        like = c.Int(nullable: false),
-                        date_publication = c.DateTime(nullable: false),
-                        idEntreprise_idEntreprise = c.Int(),
-                    })
-                .PrimaryKey(t => t.idPostU)
-                .ForeignKey("dbo.Entreprises", t => t.idEntreprise_idEntreprise)
-                .Index(t => t.idEntreprise_idEntreprise);
             
             CreateTable(
                 "dbo.PostUsers",
@@ -168,23 +197,23 @@ namespace Data.Migrations
                 .Index(t => t.idUser_idUser);
             
             CreateTable(
+                "dbo.EntrepriseLogins",
+                c => new
+                    {
+                        idEntrepriseLogin = c.String(nullable: false, maxLength: 128),
+                        EmailID = c.String(nullable: false),
+                        Password = c.String(nullable: false),
+                        RemeberMe = c.Boolean(nullable: false),
+                    })
+                .PrimaryKey(t => t.idEntrepriseLogin);
+            
+            CreateTable(
                 "dbo.Evaluations",
                 c => new
                     {
                         idEva = c.Int(nullable: false, identity: true),
                     })
                 .PrimaryKey(t => t.idEva);
-            
-            CreateTable(
-                "dbo.ExperienceProes",
-                c => new
-                    {
-                        idEP = c.Int(nullable: false, identity: true),
-                        name = c.String(),
-                        description = c.String(),
-                        nbr = c.Int(nullable: false),
-                    })
-                .PrimaryKey(t => t.idEP);
             
             CreateTable(
                 "dbo.Interviews",
@@ -228,26 +257,6 @@ namespace Data.Migrations
                 .PrimaryKey(t => t.id_JobRequest)
                 .ForeignKey("dbo.Users", t => t.idUser_idUser)
                 .Index(t => t.idUser_idUser);
-            
-            CreateTable(
-                "dbo.Langues",
-                c => new
-                    {
-                        idL = c.Int(nullable: false, identity: true),
-                        name = c.String(),
-                        level = c.String(),
-                    })
-                .PrimaryKey(t => t.idL);
-            
-            CreateTable(
-                "dbo.LicenseCertifs",
-                c => new
-                    {
-                        idLC = c.Int(nullable: false, identity: true),
-                        name = c.String(),
-                        nbr = c.Int(nullable: false),
-                    })
-                .PrimaryKey(t => t.idLC);
             
             CreateTable(
                 "dbo.Messages",
@@ -308,10 +317,34 @@ namespace Data.Migrations
                     })
                 .PrimaryKey(t => t.numSub);
             
+            CreateTable(
+                "dbo.UserLogins",
+                c => new
+                    {
+                        idUserLogin = c.String(nullable: false, maxLength: 128),
+                        EmailID = c.String(nullable: false),
+                        Password = c.String(nullable: false),
+                        RemeberMe = c.Boolean(nullable: false),
+                    })
+                .PrimaryKey(t => t.idUserLogin);
+            
+            CreateTable(
+                "dbo.Condidat",
+                c => new
+                    {
+                        idUser = c.Int(nullable: false),
+                        Condidat_firstname = c.String(),
+                        Condidat_lastname = c.String(),
+                    })
+                .PrimaryKey(t => t.idUser)
+                .ForeignKey("dbo.Users", t => t.idUser)
+                .Index(t => t.idUser);
+            
         }
         
         public override void Down()
         {
+            DropForeignKey("dbo.Condidat", "idUser", "dbo.Users");
             DropForeignKey("dbo.Quizs", "idUser_idUser", "dbo.Users");
             DropForeignKey("dbo.Payments", "idUser_idUser", "dbo.Users");
             DropForeignKey("dbo.Notifications", "idUser_idUser", "dbo.Users");
@@ -321,17 +354,19 @@ namespace Data.Migrations
             DropForeignKey("dbo.Interviews", "idUSer_idUser", "dbo.Users");
             DropForeignKey("dbo.PostUsers", "idUser_idUser", "dbo.Users");
             DropForeignKey("dbo.Comments", "idPostUser_idPostU", "dbo.PostUsers");
-            DropForeignKey("dbo.PostEntreprises", "idEntreprise_idEntreprise", "dbo.Entreprises");
-            DropForeignKey("dbo.Comments", "idPostEntreprise_idPostU", "dbo.PostEntreprises");
             DropForeignKey("dbo.Claims", "idUser_idUser", "dbo.Users");
             DropForeignKey("dbo.ApplyJobs", "idUser_idUser", "dbo.Users");
             DropForeignKey("dbo.ApplyJobs", "id_JobOffer_id_JobOffer", "dbo.JobOffers");
             DropForeignKey("dbo.AffectationJobs", "idCandidate_idUser", "dbo.Users");
-            DropForeignKey("dbo.Users", "idEntreprise_idEntreprise", "dbo.Entreprises");
+            DropForeignKey("dbo.Diplomata", "MyCondidat_idUser", "dbo.Condidat");
+            DropForeignKey("dbo.Competences", "MyCondidat_idUser", "dbo.Condidat");
             DropForeignKey("dbo.Competences", "idCandidate_idUser", "dbo.Users");
+            DropForeignKey("dbo.Certifications", "MyCondidat_idUser", "dbo.Condidat");
+            DropForeignKey("dbo.Careers", "MyCondidat_idUser", "dbo.Condidat");
+            DropForeignKey("dbo.Users", "idEntreprise_idEntreprise", "dbo.Entreprises");
             DropForeignKey("dbo.AffectationJobs", "id_JobOffer_id_JobOffer", "dbo.JobOffers");
             DropForeignKey("dbo.JobOffers", "idEntreprise_idEntreprise", "dbo.Entreprises");
-            DropForeignKey("dbo.Events", "idEntreprise_idEntreprise", "dbo.Entreprises");
+            DropIndex("dbo.Condidat", new[] { "idUser" });
             DropIndex("dbo.Quizs", new[] { "idUser_idUser" });
             DropIndex("dbo.Payments", new[] { "idUser_idUser" });
             DropIndex("dbo.Notifications", new[] { "idUser_idUser" });
@@ -340,38 +375,40 @@ namespace Data.Migrations
             DropIndex("dbo.JobOfferPMs", new[] { "idEntreprise_idEntreprise" });
             DropIndex("dbo.Interviews", new[] { "idUSer_idUser" });
             DropIndex("dbo.PostUsers", new[] { "idUser_idUser" });
-            DropIndex("dbo.PostEntreprises", new[] { "idEntreprise_idEntreprise" });
             DropIndex("dbo.Comments", new[] { "idPostUser_idPostU" });
-            DropIndex("dbo.Comments", new[] { "idPostEntreprise_idPostU" });
             DropIndex("dbo.Claims", new[] { "idUser_idUser" });
             DropIndex("dbo.ApplyJobs", new[] { "idUser_idUser" });
             DropIndex("dbo.ApplyJobs", new[] { "id_JobOffer_id_JobOffer" });
+            DropIndex("dbo.Diplomata", new[] { "MyCondidat_idUser" });
+            DropIndex("dbo.Competences", new[] { "MyCondidat_idUser" });
             DropIndex("dbo.Competences", new[] { "idCandidate_idUser" });
+            DropIndex("dbo.Certifications", new[] { "MyCondidat_idUser" });
+            DropIndex("dbo.Careers", new[] { "MyCondidat_idUser" });
             DropIndex("dbo.Users", new[] { "idEntreprise_idEntreprise" });
-            DropIndex("dbo.Events", new[] { "idEntreprise_idEntreprise" });
             DropIndex("dbo.JobOffers", new[] { "idEntreprise_idEntreprise" });
             DropIndex("dbo.AffectationJobs", new[] { "idCandidate_idUser" });
             DropIndex("dbo.AffectationJobs", new[] { "id_JobOffer_id_JobOffer" });
+            DropTable("dbo.Condidat");
+            DropTable("dbo.UserLogins");
             DropTable("dbo.Subscribes");
             DropTable("dbo.Quizs");
             DropTable("dbo.Payments");
             DropTable("dbo.Notifications");
             DropTable("dbo.Messages");
-            DropTable("dbo.LicenseCertifs");
-            DropTable("dbo.Langues");
             DropTable("dbo.JobRequests");
             DropTable("dbo.JobOfferPMs");
             DropTable("dbo.Interviews");
-            DropTable("dbo.ExperienceProes");
             DropTable("dbo.Evaluations");
+            DropTable("dbo.EntrepriseLogins");
             DropTable("dbo.PostUsers");
-            DropTable("dbo.PostEntreprises");
             DropTable("dbo.Comments");
             DropTable("dbo.Claims");
             DropTable("dbo.ApplyJobs");
+            DropTable("dbo.Diplomata");
             DropTable("dbo.Competences");
+            DropTable("dbo.Certifications");
+            DropTable("dbo.Careers");
             DropTable("dbo.Users");
-            DropTable("dbo.Events");
             DropTable("dbo.Entreprises");
             DropTable("dbo.JobOffers");
             DropTable("dbo.AffectationJobs");

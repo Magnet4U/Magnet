@@ -14,6 +14,11 @@ namespace Data.Configurations
         public EntrepriseConfig()
         {
             HasMany(c => c.joboffers).WithRequired(e => e.idEntreprise).HasForeignKey(e => e.MyidEntreprise);
+
+
+            HasMany(e => e.listuser)
+           .WithRequired(u => u.idEntreprise)
+               .HasForeignKey(u => u.MyidEntreprise);
         }
     }
 }

@@ -59,28 +59,23 @@
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
-    <Compile Include="Migrations\201910271900531_InitialDatabaseCreation.cs" />
-    <Compile Include="Migrations\201910271900531_InitialDatabaseCreation.Designer.cs">
-      <DependentUpon>201910271900531_InitialDatabaseCreation.cs</DependentUpon>
+    <Compile Include="Migrations\201911050003122_initiall.cs" />
+    <Compile Include="Migrations\201911050003122_initiall.Designer.cs">
+      <DependentUpon>201911050003122_initiall.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201910301915117_Malek.entreprise.cs" />
-    <Compile Include="Migrations\201910301915117_Malek.entreprise.Designer.cs">
-      <DependentUpon>201910301915117_Malek.entreprise.cs</DependentUpon>
+    <Compile Include="Migrations\201911050117392_Ale.cs" />
+    <Compile Include="Migrations\201911050117392_Ale.Designer.cs">
+      <DependentUpon>201911050117392_Ale.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201911021340199_Malek.updateImage.cs" />
-    <Compile Include="Migrations\201911021340199_Malek.updateImage.Designer.cs">
-      <DependentUpon>201911021340199_Malek.updateImage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201911021756359_update.cs" />
-    <Compile Include="Migrations\201911021756359_update.Designer.cs">
-      <DependentUpon>201911021756359_update.cs</DependentUpon>
+    <Compile Include="Migrations\201911051035352_Ale_Select.cs" />
+    <Compile Include="Migrations\201911051035352_Ale_Select.Designer.cs">
+      <DependentUpon>201911051035352_Ale_Select.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyDBContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -90,17 +85,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201910271900531_InitialDatabaseCreation.resx">
-      <DependentUpon>201910271900531_InitialDatabaseCreation.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201911050003122_initiall.resx">
+      <DependentUpon>201911050003122_initiall.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201910301915117_Malek.entreprise.resx">
-      <DependentUpon>201910301915117_Malek.entreprise.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201911050117392_Ale.resx">
+      <DependentUpon>201911050117392_Ale.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201911021340199_Malek.updateImage.resx">
-      <DependentUpon>201911021340199_Malek.updateImage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201911021756359_update.resx">
-      <DependentUpon>201911021756359_update.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201911051035352_Ale_Select.resx">
+      <DependentUpon>201911051035352_Ale_Select.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

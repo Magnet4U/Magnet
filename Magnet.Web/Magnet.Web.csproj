@@ -168,8 +168,11 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\EntrepriseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Crypto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -190,6 +193,8 @@
     <Content Include="Content\css\quill.snow.css" />
     <Content Include="Content\css\style.css" />
     <Content Include="Content\images\apps.png" />
+    <Content Include="Content\images\erp.png" />
+    <Content Include="Content\images\finance-en-entreprise.jpeg" />
     <Content Include="Content\images\hero_1.jpg" />
     <Content Include="Content\images\img_1.jpg" />
     <Content Include="Content\images\img_2.jpg" />
@@ -231,6 +236,7 @@
     <Content Include="Content\images\sq_img_7.jpg" />
     <Content Include="Content\images\sq_img_8.jpg" />
     <Content Include="Content\images\sq_img_9.jpg" />
+    <Content Include="Content\images\userlogo.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fonts\icomoon\demo-files\demo.css" />
     <Content Include="fonts\fonts\icomoon\demo-files\demo.js" />
@@ -331,9 +337,17 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_CustomLayout.cshtml" />
+    <Content Include="Views\Entreprise\Registration.cshtml" />
+    <Content Include="Views\Entreprise\VerifyAccount.cshtml" />
+    <Content Include="Views\Entreprise\Login.cshtml" />
+    <Content Include="Views\Entreprise\Choice.cshtml" />
+    <Content Include="Views\User\Registration.cshtml" />
+    <Content Include="Views\User\VerifyAccount.cshtml" />
+    <Content Include="Views\User\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\Uploads\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -344,6 +358,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{82EF701B-CFB5-4B8A-8DD2-24C57C6EE52F}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{9f127e22-379b-494e-8f70-987abad333e3}</Project>
       <Name>Domain</Name>
