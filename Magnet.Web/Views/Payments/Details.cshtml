@@ -1,0 +1,67 @@
+﻿@model Domain.Entities.Payment
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Payment</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Mode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpiratioDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpiratioDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Reduction)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Reduction)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idPayment }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

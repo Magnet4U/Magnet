@@ -13,5 +13,12 @@ namespace Domain.Entities
         public int idPayment { get; set; }
         public float price { get; set; }
         public User idUser { get; set; }
+        public string Mode { get; set; }
+        public DateTime PaymentDate { get; set; }
+        public DateTime ExpiratioDate { get; set; }
+        public float Reduction { get; set; }
+        public Entreprise entreprise { get; set; }
+        public PackOffe packOffe { get; set; }
+        public string status { get; set; }
     }
 }

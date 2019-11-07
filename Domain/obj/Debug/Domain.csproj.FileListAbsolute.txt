@@ -52,3 +52,14 @@ C:\Magnet\Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Magnet\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
 C:\Magnet\Domain\obj\Debug\Domain.dll
 C:\Magnet\Domain\obj\Debug\Domain.pdb
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Domain\bin\Debug\Domain.dll.config
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Domain\bin\Debug\Domain.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Domain\bin\Debug\Domain.pdb
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Domain\bin\Debug\EntityFramework.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Domain\bin\Debug\EntityFramework.xml
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Domain\obj\Debug\Domain.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Domain\obj\Debug\Domain.pdb

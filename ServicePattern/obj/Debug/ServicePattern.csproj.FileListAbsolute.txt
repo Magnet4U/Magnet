@@ -76,3 +76,20 @@ C:\Magnet\ServicePattern\bin\Debug\Domain.pdb
 C:\Magnet\ServicePattern\obj\Debug\ServicePattern.csprojResolveAssemblyReference.cache
 C:\Magnet\ServicePattern\obj\Debug\ServicePattern.dll
 C:\Magnet\ServicePattern\obj\Debug\ServicePattern.pdb
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\bin\Debug\ServicePattern.dll.config
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\bin\Debug\ServicePattern.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\bin\Debug\ServicePattern.pdb
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\bin\Debug\Data.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\bin\Debug\EntityFramework.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\bin\Debug\Domain.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\bin\Debug\Data.pdb
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\bin\Debug\EntityFramework.xml
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\bin\Debug\Domain.pdb
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\bin\Debug\Domain.dll.config
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\obj\Debug\ServicePattern.csprojAssemblyReference.cache
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\obj\Debug\ServicePattern.csproj.CoreCompileInputs.cache
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\obj\Debug\ServicePattern.csproj.CopyComplete
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\obj\Debug\ServicePattern.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\obj\Debug\ServicePattern.pdb

@@ -34,6 +34,8 @@ namespace Data
         public DbSet<User> DBSetUser { get; set; }
         public DbSet<EntrepriseLogin> DBSetEntrepriseLogin { get; set; }
         public DbSet<UserLogin> DBSetUserLogin { get; set; }
+        public DbSet<PackOffe> DBSetPackOffe { get; set; }
+        public DbSet<Response> DBSetResponse { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

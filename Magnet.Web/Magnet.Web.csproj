@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -168,9 +169,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ClaimsController.cs" />
     <Compile Include="Controllers\EntrepriseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PaymentsController.cs" />
+    <Compile Include="Controllers\ResponsesController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Crypto.cs" />
     <Compile Include="Global.asax.cs">
@@ -344,6 +348,21 @@
     <Content Include="Views\User\Registration.cshtml" />
     <Content Include="Views\User\VerifyAccount.cshtml" />
     <Content Include="Views\User\Login.cshtml" />
+    <Content Include="Views\Claims\Create.cshtml" />
+    <Content Include="Views\Claims\Delete.cshtml" />
+    <Content Include="Views\Claims\Details.cshtml" />
+    <Content Include="Views\Claims\Edit.cshtml" />
+    <Content Include="Views\Claims\Index.cshtml" />
+    <Content Include="Views\Responses\Create.cshtml" />
+    <Content Include="Views\Responses\Delete.cshtml" />
+    <Content Include="Views\Responses\Details.cshtml" />
+    <Content Include="Views\Responses\Edit.cshtml" />
+    <Content Include="Views\Responses\Index.cshtml" />
+    <Content Include="Views\Payments\Create.cshtml" />
+    <Content Include="Views\Payments\Delete.cshtml" />
+    <Content Include="Views\Payments\Details.cshtml" />
+    <Content Include="Views\Payments\Edit.cshtml" />
+    <Content Include="Views\Payments\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
