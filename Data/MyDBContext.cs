@@ -11,6 +11,9 @@ namespace Data
     public class MyDBContext:DbContext
     {
         public DbSet<AffectationJob> DBSetAffectationJob { get; set; }
+        public DbSet<Question> DBSetQuestion { get; set; }
+        public DbSet<Niveau> DBSetNiveau { get; set; }
+        public DbSet<Condidat> DBSetCondidat { get; set; }
         public DbSet<ApplyJob> DBSetApplyJob { get; set; }
         public DbSet<Claim> DBSetClaim{ get; set; }
         public DbSet<Comment> DBSetComment { get; set; }

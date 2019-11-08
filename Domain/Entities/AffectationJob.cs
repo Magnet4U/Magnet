@@ -12,6 +12,7 @@ namespace Domain.Entities
         [Key]
         public int id_AJ { get; set; }
         public JobOffer id_JobOffer { get; set; }
-        public User idCandidate { get; set; }
+        public Condidat idCandidate { get; set; }
+        public virtual Condidat candidat { get; set; }
     }
 }

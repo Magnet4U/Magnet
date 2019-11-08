@@ -21,7 +21,6 @@ namespace ServicePattern
         IEnumerable<T> GetAll();
 
         void Commit();
-        void dispose();
 
 
     }

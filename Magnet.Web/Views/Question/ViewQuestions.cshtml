@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Domain.Entities.Question>
+
+@{
+    ViewBag.Title = "ViewQuestions";
+}
+<!-- HOME -->
+
+<section class="section-hero overlay inner-page bg-image" style="background-image: url('images/hero_1.jpg');" id="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="text-white font-weight-bold">Schedule An Interview</h1>
+                <div class="custom-breadcrumbs">
+                    <a href="#">Home</a> <span class="mx-2 slash">/</span>
+                    <a href="#">Interview</a> <span class="mx-2 slash">/</span>
+                    <span class="text-white"><strong>Schedule An Interview</strong></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="site-section">
+
+    <div class="container">
+
+
+        <h2>ViewQuestions</h2>
+        @using (Html.BeginForm())
+        {
+            <p>
+                @Html.TextBox("searchid",null,new { @placeholder="Search ID"}) 
+                <br />
+                <br />
+                <input type="submit" value="Filter" class="btn btn-primary"/>
+            </p>
+        }
+        <p>
+            @Html.ActionLink("Create New", "Create")
+        </p>
+        <table class="table">
+            <tr>
+                <th>
+                    Description
+                </th>
+                <th>
+                    ID
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.idQuestion)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.idQuestion }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.idQuestion }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.idQuestion })
+                    </td>
+                </tr>
+            }
+
+        </table>
+
+        <br />
+        <br />
+
+
+
+
+    </div></section>

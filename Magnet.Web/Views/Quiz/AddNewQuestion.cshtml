@@ -1,0 +1,106 @@
+﻿@model Domain.Entities.Quiz
+
+@{
+    ViewBag.Title = "AddNewQuestion";
+}
+
+
+<!-- HOME -->
+
+<section class="section-hero overlay inner-page bg-image" style="background-image: url('images/hero_1.jpg');" id="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="text-white font-weight-bold">Manage Quiz</h1>
+                <div class="custom-breadcrumbs">
+                    <a href="#">Home</a> <span class="mx-2 slash">/</span>
+                    <a href="#">Quiz</a> <span class="mx-2 slash">/</span>
+                    <span class="text-white"><strong>Manage Quiz</strong></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="site-section">
+
+    <div class="container">
+        
+
+
+        <h2>Add Questions (max 10) </h2>
+
+
+        <br />
+
+        @using (Html.BeginForm("AddNewQuestionAction", "Question"))
+        {<fieldset>
+    <input type="hidden" name="id" value=@ViewBag.ID /> <br />
+
+    <div class="form-group col-sm-12 col-md-12 col-lg-12">
+        <div class="form-group col-sm-4 col-md-4 col-lg-4">
+            Question
+        </div>
+        <div class="form-group col-sm-8 col-md-8 col-lg-8">
+            <textarea id="description" style="width:400px; height:75px; " type="text" name="description"></textarea>
+        </div>
+    </div>
+    <div class="form-group col-sm-12 col-md-12 col-lg-12">
+        <div class="form-group col-sm-4 col-md-4 col-lg-4">
+            Correct Answer
+        </div>
+        <div class="form-group col-sm-8 col-md-8 col-lg-8">
+            <textarea id="correctAnswer" style="width:400px; height:75px; " type="text" name="correctAnswer"></textarea>
+        </div>
+    </div>
+    <div class="form-group col-sm-12 col-md-12 col-lg-12">
+        <div class="form-group col-sm-4 col-md-4 col-lg-4">
+            First option
+        </div>
+        <div class="form-group col-sm-8 col-md-8 col-lg-8">
+            <textarea id="optionb" style="width:400px; height:75px;" type="text" name="optionb"></textarea>
+        </div>
+    </div>
+    <div class="form-group col-sm-12 col-md-12 col-lg-12">
+        <div class="form-group col-sm-4 col-md-4 col-lg-4">
+            Second option
+        </div>
+        <div class="form-group col-sm-8 col-md-8 col-lg-8">
+            <textarea id="optionc" style="width:400px; height:75px; " type="text" name="optionc"></textarea>
+        </div>
+    </div>
+    <div class="form-group col-sm-12 col-md-12 col-lg-12">
+        <div class="form-group col-sm-4 col-md-4 col-lg-4">
+            Third option
+        </div>
+        <div class="form-group col-sm-8 col-md-8 col-lg-8">
+            <textarea id="optiond" style="width:400px; height:75px; " type="text" name="optiond"></textarea>
+        </div>
+    </div>
+
+
+    @*
+        <input type="text" name="question" value="Blank" /> Your Question  <br />
+        <input type="text" name="answer" value="Blank" /> Your Answer <br />
+        <input type="text" name="optionb" value="Blank" /> Your first other option  <br />
+        <input type="text" name="optionc" value="Blank" /> Your second other option <br />
+        <input type="text" name="optiond" value="Blank" /> Your third other option <br />
+    *@
+
+    <br />
+    <input type="submit" value="Submit" class="btn btn-primary" />
+    
+    
+    <br />
+</fieldset>
+        }
+
+
+         <div>
+
+             <br />
+             <br />
+             @Html.ActionLink("Back to List", "Index")
+         </div>
+
+</div>
+</section>

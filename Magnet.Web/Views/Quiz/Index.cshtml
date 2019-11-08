@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Domain.Entities.Quiz>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<!-- HOME -->
+<section class="section-hero overlay inner-page bg-image" style="background-image: url('images/hero_1.jpg');" id="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="text-white font-weight-bold">Manage Quiz</h1>
+                <div class="custom-breadcrumbs">
+                    <a href="#">Home</a> <span class="mx-2 slash">/</span>
+                    <a href="#">Quiz</a> <span class="mx-2 slash">/</span>
+                    <span class="text-white"><strong>Manage Quiz</strong></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="site-section">
+
+    <div class="container">
+        
+
+
+
+        
+
+        <p>
+            @Html.ActionLink("Add Quiz", "Create")
+        </p>
+        @*authorize html buttons by user role*@
+        @if (ViewContext.HttpContext.User.IsInRole("canEdit"))
+        {
+            @Html.ActionLink("Add Quiz", "Create")
+        }
+        <table class="table">
+            <tr>
+                <th>
+                    Libelle Quiz
+                </th>
+                <th>
+                    ID
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.libelleQuiz)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.idQuiz)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.idQuiz }) |
+                        @Html.ActionLink("Add new Question", "AddNewQuestion", new { id = item.idQuiz }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.idQuiz }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.idQuiz })
+                    </td>
+                </tr>
+            }
+
+        </table>
+        </div>
+</section>

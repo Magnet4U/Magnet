@@ -1,0 +1,94 @@
+﻿@model IEnumerable<Domain.Entities.Quiz>
+
+@{
+    ViewBag.Title = "AllTests";
+}
+<section class="section-hero overlay inner-page bg-image" style="background-image: url('images/hero_1.jpg');" id="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="text-white font-weight-bold">Manage Quiz</h1>
+                <div class="custom-breadcrumbs">
+                    <a href="#">Home</a> <span class="mx-2 slash">/</span>
+                    <a href="#">Quiz</a> <span class="mx-2 slash">/</span>
+                    <span class="text-white"><strong>Manage Quiz</strong></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="site-section">
+
+    <div class="container">
+        <h2>Quizs</h2>
+
+        <p>
+            @Html.ActionLink("Add new quiz", "Create")
+        </p>
+        
+        <table>
+            <tr>
+                <th>
+                    Libelle Quiz
+                </th>
+                <th></th>
+            </tr>
+
+        </table>
+        
+        <ul class="job-listings mb-5">
+            
+            @foreach (var item in Model)
+            {
+                
+
+
+
+            <li class="job-listing d-block d-sm-flex pb-5 pb-sm-0 align-items-center">
+                <a href="job-single.html"></a>
+               
+
+                <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
+                    <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
+                        <h2>
+                            @Html.DisplayFor(modelItem => item.libelleQuiz)
+                        </h2>
+
+                    </div>
+                    <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
+                        @Html.ActionLink("Take Test", "CustomTestPreFormatting", "Question", new { searchid = item.idQuiz }, null)
+
+                    </div>
+                    <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
+                        @Html.ActionLink("Print Test", "TestPDF", "Question", new { id = item.idQuiz, title = item.libelleQuiz }, null)
+
+                    </div>
+                    <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
+                        @Html.ActionLink("Edit", "Edit", new { id = item.idQuiz })
+
+                    </div>
+                    <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
+                        @Html.ActionLink("Details", "Details", new { id = item.idQuiz })
+                    </div>
+                    <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
+                        @Html.ActionLink("Delete", "Delete", new { id = item.idQuiz })
+                    </div>
+                </div>
+
+            </li>
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+    </div>
+</section>

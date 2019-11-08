@@ -1,0 +1,63 @@
+﻿@model Domain.Entities.Interview
+
+@{
+    ViewBag.Title = "Details";
+}
+<section class="section-hero overlay inner-page bg-image" style="background-image: url('images/hero_1.jpg');" id="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="text-white font-weight-bold">Schedule An Interview</h1>
+                <div class="custom-breadcrumbs">
+                    <a href="#">Home</a> <span class="mx-2 slash">/</span>
+                    <a href="#">Interview</a> <span class="mx-2 slash">/</span>
+                    <span class="text-white"><strong>Schedule An Interview</strong></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="site-section">
+
+    <div class="container">
+        <div class="row align-items-center mb-5">
+            <div class="col-lg-8 mb-4 mb-lg-0">
+                <div class="d-flex align-items-center">
+                    <div>
+                        <h2>Schedule An Interview</h2>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h2>Details</h2>
+
+        <div>
+            <h4>Interview</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    Date Interview
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.DateInterview)
+                </dd>
+
+                <dt>
+                    Lieu
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.lieu)
+                </dd>
+
+            </dl>
+        </div>
+        <p>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.idInterview }) |
+            @Html.ActionLink("Back to List", "Index")
+        </p>
+        </div>
+</section>

@@ -1,0 +1,147 @@
+﻿@model IEnumerable<Domain.Entities.Question>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<!-- HOME -->
+
+<section class="section-hero overlay inner-page bg-image" style="background-image: url('images/hero_1.jpg');" id="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="text-white font-weight-bold">Manage Question</h1>
+                <div class="custom-breadcrumbs">
+                    <a href="#">Home</a> <span class="mx-2 slash">/</span>
+                    <a href="#">Questions</a> <span class="mx-2 slash">/</span>
+                    <span class="text-white"><strong>Manage Question</strong></span>
+                </div>
+            </div>
+        </div>
+        
+
+
+    </div>
+</section>
+<section class="site-section">
+
+    <div class="container">
+
+
+        <h2>All Questions</h2>
+
+        <p>
+            @Html.ActionLink("Add New Question", "Create")
+        </p>
+
+        <form method="post" class="search-jobs-form">
+            <div class="row mb-5">
+
+                @Html.TextBox("Search",null , new { @placeholder = "Search" })
+
+            </div>
+
+        </form>
+        <table class="table">
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    GroupingId
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Answer 1
+                </th>
+                <th>
+                    Answer 2
+                </th>
+                <th>
+                    Answer 3
+                </th>
+                <th>
+                    Correct Answer
+                </th>
+                <th></th>
+            </tr>
+            <tbody id="DataSearching">
+
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.idQuestion)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.GroupingId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.description)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.rep1)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.rep2)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.rep3)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.correctAnswer)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.idQuestion }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.idQuestion }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.idQuestion })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    </div>
+</section>
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#Search").keyup(function () {
+            var SearchBy = $("#SearchBy").val();
+            var SearchValue = $("#Search").val();
+            var SetData = $("#DataSearching");
+            SetData.html("");
+            $.ajax({
+                type: "post",
+                url: "/Question/GetSearchingData?SearchBy=" + SearchBy + "&SearchValue=" + SearchValue,
+                contentType: "html",
+                success: function (result) {
+                    if (result.length == 0) {
+                        SetData.append('<tr style="color:red"><td colspan="3">No Match Data</td></tr>')
+
+                    }
+                    else {
+                        $.each(result, function (index, value) {
+                            var Data = "<tr>" +
+                                "<td>" + value.idQuestion + "</td>" +
+                                "<td>" + value.GroupingId + "</td>" +
+                                "<td>" + value.description + "</td>" +
+                                "<td>" + value.rep1 + "</td>" +
+                                "<td>" + value.rep2 + "</td>" +
+                                "<td>" + value.rep3 + "</td>" +
+                                "<td>" + value.correctAnswer + "</td>" +
+                                "</tr>";
+                            SetData.append(Data);
+
+                        });
+                    }
+                }
+
+            });
+
+        });
+    });
+</script>

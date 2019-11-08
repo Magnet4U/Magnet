@@ -10,21 +10,18 @@ using System.Threading.Tasks;
 
 namespace ServicePattern
 {
-    public abstract class Service<TEntity> : IService<TEntity> where TEntity : class
+    public class Service<TEntity> : IService<TEntity> where TEntity : class
     {
 
         IUnitOfWork utwk;
-        private IUnitOfWork utwk1;
-        private IUnitOfWork ut;
+       
 
-        protected Service(IUnitOfWork utwk)
+        public Service(IUnitOfWork utwk)
         {
             this.utwk = utwk;
         }
 
-        public Service()
-        {
-        }
+        
 
        
 
@@ -91,11 +88,11 @@ namespace ServicePattern
         }
 
 
-        public void dispose()
+        
+
+        public void Dispose()
         {
             utwk.Dispose();
         }
-
-        public abstract void Dispose();
     }
 }

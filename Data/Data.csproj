@@ -98,6 +98,38 @@
     <Compile Include="Migrations\201910301548117_ghada.CondidatFK.Designer.cs">
       <DependentUpon>201910301548117_ghada.CondidatFK.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911020009540_Mootaz-AddQuizTables.cs" />
+    <Compile Include="Migrations\201911020009540_Mootaz-AddQuizTables.Designer.cs">
+      <DependentUpon>201911020009540_Mootaz-AddQuizTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911031039338_Mootaz-UpdateTable.cs" />
+    <Compile Include="Migrations\201911031039338_Mootaz-UpdateTable.Designer.cs">
+      <DependentUpon>201911031039338_Mootaz-UpdateTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911041729014_Mootaz.UpdateInterviewFK.cs" />
+    <Compile Include="Migrations\201911041729014_Mootaz.UpdateInterviewFK.Designer.cs">
+      <DependentUpon>201911041729014_Mootaz.UpdateInterviewFK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911041751183_Mootaz.AffectationJobFK.cs" />
+    <Compile Include="Migrations\201911041751183_Mootaz.AffectationJobFK.Designer.cs">
+      <DependentUpon>201911041751183_Mootaz.AffectationJobFK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911042018089_Mootaz.CondidateFK.cs" />
+    <Compile Include="Migrations\201911042018089_Mootaz.CondidateFK.Designer.cs">
+      <DependentUpon>201911042018089_Mootaz.CondidateFK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911042119242_Mootaz.DeleteCategorie.cs" />
+    <Compile Include="Migrations\201911042119242_Mootaz.DeleteCategorie.Designer.cs">
+      <DependentUpon>201911042119242_Mootaz.DeleteCategorie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911042131206_Mootaz.NiveauFK.cs" />
+    <Compile Include="Migrations\201911042131206_Mootaz.NiveauFK.Designer.cs">
+      <DependentUpon>201911042131206_Mootaz.NiveauFK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911052314207_Mootaz_UpdateQuestion.cs" />
+    <Compile Include="Migrations\201911052314207_Mootaz_UpdateQuestion.Designer.cs">
+      <DependentUpon>201911052314207_Mootaz_UpdateQuestion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyDBContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -142,6 +174,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201910301548117_ghada.CondidatFK.resx">
       <DependentUpon>201910301548117_ghada.CondidatFK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911020009540_Mootaz-AddQuizTables.resx">
+      <DependentUpon>201911020009540_Mootaz-AddQuizTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911031039338_Mootaz-UpdateTable.resx">
+      <DependentUpon>201911031039338_Mootaz-UpdateTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911041729014_Mootaz.UpdateInterviewFK.resx">
+      <DependentUpon>201911041729014_Mootaz.UpdateInterviewFK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911041751183_Mootaz.AffectationJobFK.resx">
+      <DependentUpon>201911041751183_Mootaz.AffectationJobFK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911042018089_Mootaz.CondidateFK.resx">
+      <DependentUpon>201911042018089_Mootaz.CondidateFK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911042119242_Mootaz.DeleteCategorie.resx">
+      <DependentUpon>201911042119242_Mootaz.DeleteCategorie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911042131206_Mootaz.NiveauFK.resx">
+      <DependentUpon>201911042131206_Mootaz.NiveauFK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911052314207_Mootaz_UpdateQuestion.resx">
+      <DependentUpon>201911052314207_Mootaz_UpdateQuestion.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -16,12 +16,7 @@ namespace Console
             MyDBContext ctx = new MyDBContext();
             //ghada///////
 
-            //Ajouter un interview à partir de la classe InterviewService 
-           /* IInterviewService intService = new InterviewService();
-            Interview interview = new Interview() { idInterview = 1 , lieu="Tunisie" };
-            intService.Add(interview);
-            intService.Commit();
-            intService.dispose();*/
+            
             
 
 

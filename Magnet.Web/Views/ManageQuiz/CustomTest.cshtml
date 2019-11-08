@@ -1,0 +1,79 @@
+﻿@model Domain.Entities.Question
+
+@{
+    ViewBag.Title = "CustomTest";
+}
+<!-- HOME -->
+
+<section class="section-hero overlay inner-page bg-image" style="background-image: url('images/hero_1.jpg');" id="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="text-white font-weight-bold">Quiz Test</h1>
+                <div class="custom-breadcrumbs">
+                    <a href="#">Home</a> <span class="mx-2 slash">/</span>
+                    <a href="#">Quiz</a> <span class="mx-2 slash">/</span>
+                    <span class="text-white"><strong>Quiz Test</strong></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="site-section">
+
+    <div class="container">
+        <div class="col-lg-12 mb-4">
+            <div class="block__87154">
+                <h2>Please provide a correct answer to pass to the next question</h2>
+
+
+                <h3>Question @ViewBag.count: <br /> <br />@Model.description  ? </h3> <br /><br />
+
+
+
+
+
+
+                @using (Html.BeginForm("CustomTestCheckAnswers", "ManageQuiz"))
+                {
+                    <fieldset>
+                        <input type="radio" name="answer" value=@ViewBag.correctincorrectstatusa /> @ViewBag.A <br />
+                        <input type="radio" name="answer" value=@ViewBag.correctincorrectstatusb /> @ViewBag.B<br />
+                        <input type="radio" name="answer" value=@ViewBag.correctincorrectstatusc /> @ViewBag.C<br />
+                        <br /><br />
+                        <input type="submit" value="Submit Answer" class="btn btn-warning" />
+                    </fieldset>
+                }
+
+            </div>
+        </div>
+
+        <br />
+        <div class="col-lg-6 mb-4">
+            <div class="block__87154">
+                <pre>
+Answers correct: @ViewBag.amountcorrect
+Answers wrong:   @ViewBag.amountwrong
+Percentage Correct: @if(ViewBag.amountcorrect != 0 && ViewBag.amountwrong !=0)
+{
+    double percentageright = (ViewBag.amountcorrect / (ViewBag.amountwrong + ViewBag.amountcorrect)) * 100;
+    ViewBag.percentright = percentageright;
+}
+else if(ViewBag.amountcorrect != 0 && ViewBag.amountwrong == 0)
+{
+    ViewBag.percentright = 100;
+}
+else
+{ ViewBag.percentright = 0; }
+@ViewBag.percentright %</pre>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+

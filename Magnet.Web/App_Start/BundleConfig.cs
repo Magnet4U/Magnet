@@ -17,11 +17,29 @@ namespace Magnet.Web
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                        "~/Scripts/modernizr-*"));
-
+                        "~/Scripts/modernizr-*"
+                        ));
+            bundles.Add(new ScriptBundle("~/bundles/customScript").Include(
+                      "~/Scripts/CustomScript.js"
+                      ));
+            bundles.Add(new ScriptBundle("~/bundles/moment").Include(
+                      "~/Scripts/moment.min.js"
+                      ));
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
+                      "~/Scripts/bootstrap.min.js",
                       "~/Scripts/respond.js"));
+            bundles.Add(new ScriptBundle("~/bundles/bootstrapC").Include(
+                "~/Content/bootstrap.min.css"
+                ));
+
+            bundles.Add(new ScriptBundle("~/bundles/bootstrap-datetimepicker").Include(
+                "~/Content/bootstrap-datetimepicker.min.css"
+                ));
+
+            bundles.Add(new ScriptBundle("~/bundles/bootstrap-datetimepickerSc").Include(
+                "~/Script/bootstrap-datetimepicker.min.js"
+                ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
