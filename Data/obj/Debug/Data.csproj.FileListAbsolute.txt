@@ -103,3 +103,22 @@ C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Data\obj\Debug\Data.dll
 C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Data\obj\Debug\Data.pdb
 C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Data\obj\Debug\Data.Migrations.mg1.resources
 C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Data\obj\Debug\Data.csproj.GenerateResource.cache
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\bin\Debug\Data.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\bin\Debug\Data.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\bin\Debug\Domain.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\bin\Debug\EntityFramework.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\bin\Debug\Domain.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\bin\Debug\Domain.dll.config
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\bin\Debug\EntityFramework.xml
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\obj\Debug\Data.csprojAssemblyReference.cache
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\obj\Debug\Data.Migrations.mg1.resources
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\obj\Debug\Data.csproj.GenerateResource.cache
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\obj\Debug\Data.csproj.CopyComplete
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\obj\Debug\Data.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\obj\Debug\Data.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\obj\Debug\Data.Migrations.MootazAddQuestionNiveau.resources
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\obj\Debug\Data.Migrations.MootazupdateDBContext.resources
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Data\obj\Debug\Data.Migrations.MootazUpdateInterview.resources

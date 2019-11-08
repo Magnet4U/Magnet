@@ -172,8 +172,12 @@
     <Compile Include="Controllers\ClaimsController.cs" />
     <Compile Include="Controllers\EntrepriseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InterviewController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ManageQuizController.cs" />
     <Compile Include="Controllers\PaymentsController.cs" />
+    <Compile Include="Controllers\QuestionController.cs" />
+    <Compile Include="Controllers\QuizController.cs" />
     <Compile Include="Controllers\ResponsesController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Crypto.cs" />
@@ -181,8 +185,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Globals.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Randomfilleranswers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -363,6 +369,32 @@
     <Content Include="Views\Payments\Details.cshtml" />
     <Content Include="Views\Payments\Edit.cshtml" />
     <Content Include="Views\Payments\Index.cshtml" />
+    <Content Include="Views\Interview\Index.cshtml" />
+    <Content Include="Views\Interview\Create.cshtml" />
+    <Content Include="Views\Interview\Edit.cshtml" />
+    <Content Include="Views\Interview\Delete.cshtml" />
+    <Content Include="Views\Interview\Details.cshtml" />
+    <Content Include="Views\Quiz\Index.cshtml" />
+    <Content Include="Views\Quiz\Details.cshtml" />
+    <Content Include="Views\Quiz\Create.cshtml" />
+    <Content Include="Views\Quiz\CreateAdvanced.cshtml" />
+    <Content Include="Views\Quiz\AddNewQuestion.cshtml" />
+    <Content Include="Views\Quiz\Edit.cshtml" />
+    <Content Include="Views\Quiz\Delete.cshtml" />
+    <Content Include="Views\Quiz\AllTests.cshtml" />
+    <Content Include="Views\Question\Index.cshtml" />
+    <Content Include="Views\Question\Create.cshtml" />
+    <Content Include="Views\Question\Edit.cshtml" />
+    <Content Include="Views\Question\Delete.cshtml" />
+    <Content Include="Views\Question\AddAnotherQuestion.cshtml" />
+    <Content Include="Views\Question\ViewQuestions.cshtml" />
+    <Content Include="Views\Question\ViewGlobals.cshtml" />
+    <Content Include="Views\Question\Details.cshtml" />
+    <Content Include="Views\ManageQuiz\Index.cshtml" />
+    <Content Include="Views\ManageQuiz\TestQuiz.cshtml" />
+    <Content Include="Views\ManageQuiz\CustomTest.cshtml" />
+    <Content Include="Views\ManageQuiz\TestQuizFinalResults.cshtml" />
+    <Content Include="Views\ManageQuiz\ShowPDF.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

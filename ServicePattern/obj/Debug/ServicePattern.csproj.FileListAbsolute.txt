@@ -93,3 +93,20 @@ C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\obj\Debug\ServiceP
 C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\obj\Debug\ServicePattern.csproj.CopyComplete
 C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\obj\Debug\ServicePattern.dll
 C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\ServicePattern\obj\Debug\ServicePattern.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\bin\Debug\ServicePattern.dll.config
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\bin\Debug\ServicePattern.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\bin\Debug\ServicePattern.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\bin\Debug\Data.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\bin\Debug\EntityFramework.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\bin\Debug\EntityFramework.SqlServer.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\bin\Debug\Domain.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\bin\Debug\Data.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\bin\Debug\EntityFramework.xml
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\bin\Debug\EntityFramework.SqlServer.xml
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\bin\Debug\Domain.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\bin\Debug\Domain.dll.config
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\obj\Debug\ServicePattern.csprojAssemblyReference.cache
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\obj\Debug\ServicePattern.csproj.CoreCompileInputs.cache
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\obj\Debug\ServicePattern.csproj.CopyComplete
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\obj\Debug\ServicePattern.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\ServicePattern\obj\Debug\ServicePattern.pdb

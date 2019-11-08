@@ -63,3 +63,15 @@ C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Domain\obj\Debug\Domain.csproj.Co
 C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Domain\obj\Debug\Domain.csproj.CopyComplete
 C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Domain\obj\Debug\Domain.dll
 C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Domain\obj\Debug\Domain.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Domain\bin\Debug\Domain.dll.config
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Domain\bin\Debug\Domain.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Domain\bin\Debug\Domain.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Domain\bin\Debug\EntityFramework.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Domain\bin\Debug\EntityFramework.xml
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Domain\obj\Debug\Domain.csproj.CopyComplete
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Domain\obj\Debug\Domain.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Domain\obj\Debug\Domain.pdb

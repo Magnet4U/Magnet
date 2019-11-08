@@ -63,6 +63,18 @@
     <Compile Include="Migrations\201911062011306_mg1.Designer.cs">
       <DependentUpon>201911062011306_mg1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911080948386_Mootaz-AddQuestion+Niveau.cs" />
+    <Compile Include="Migrations\201911080948386_Mootaz-AddQuestion+Niveau.Designer.cs">
+      <DependentUpon>201911080948386_Mootaz-AddQuestion+Niveau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911080950205_Mootaz-updateDBContext.cs" />
+    <Compile Include="Migrations\201911080950205_Mootaz-updateDBContext.Designer.cs">
+      <DependentUpon>201911080950205_Mootaz-updateDBContext.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911080953176_Mootaz-UpdateInterview.cs" />
+    <Compile Include="Migrations\201911080953176_Mootaz-UpdateInterview.Designer.cs">
+      <DependentUpon>201911080953176_Mootaz-UpdateInterview.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyDBContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,6 +91,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201911062011306_mg1.resx">
       <DependentUpon>201911062011306_mg1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911080948386_Mootaz-AddQuestion+Niveau.resx">
+      <DependentUpon>201911080948386_Mootaz-AddQuestion+Niveau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911080950205_Mootaz-updateDBContext.resx">
+      <DependentUpon>201911080950205_Mootaz-updateDBContext.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911080953176_Mootaz-UpdateInterview.resx">
+      <DependentUpon>201911080953176_Mootaz-UpdateInterview.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

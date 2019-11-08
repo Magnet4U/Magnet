@@ -19,5 +19,6 @@ namespace Domain.Entities
         public List<Certification> MyCertif { get; set; }
         public List <Competence> MyComp { get; set; }
         public List<Diploma> MyDip { get; set; }
+        public List<Interview> MyInterview { get; set; }
     }
 }

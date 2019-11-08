@@ -11,7 +11,8 @@ namespace Domain.Entities
     {
         [Key]
         public int idInterview { get; set; }
-        public User idUSer { get; set; }
+        public Condidat idCandidat { get; set; }
+        public virtual Condidat Candidat { get; set; }
         public DateTime DateInterview { get; set; }
         public string lieu { get; set; }
 

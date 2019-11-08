@@ -30,6 +30,8 @@ namespace Data
         public DbSet<Payment> DBSetPayment { get; set; }
         public DbSet<PostUser> DBSetPostUser { get; set; }
         public DbSet<Quiz> DBSetQuiz { get; set; }
+        public DbSet<Question> DBSetQuestion { get; set; }
+        public DbSet<Niveau> DBSetNiveau { get; set; }
         public DbSet<Subscribe> DBSetSubscribe { get; set; }
         public DbSet<User> DBSetUser { get; set; }
         public DbSet<EntrepriseLogin> DBSetEntrepriseLogin { get; set; }

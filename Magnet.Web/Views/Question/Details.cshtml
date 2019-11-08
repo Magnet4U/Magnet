@@ -1,0 +1,89 @@
+﻿@model Domain.Entities.Question
+
+@{
+    ViewBag.Title = "Details";
+}
+<!-- HOME -->
+
+<section class="section-hero overlay inner-page bg-image" style="background-image: url('images/hero_1.jpg');" id="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="text-white font-weight-bold">Manage Question</h1>
+                <div class="custom-breadcrumbs">
+                    <a href="#">Home</a> <span class="mx-2 slash">/</span>
+                    <a href="#">Questions</a> <span class="mx-2 slash">/</span>
+                    <span class="text-white"><strong>Manage Question</strong></span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<section class="site-section">
+
+    <div class="container">
+
+        <h2>Details</h2>
+
+        <div>
+            <h4>Question</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    Grouping ID
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.GroupingId)
+                </dd>
+
+                <dt>
+                    Description
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.description)
+                </dd>
+
+                <dt>
+                    Answer 1
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.rep1)
+                </dd>
+
+                <dt>
+                    Answer 2
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.rep2)
+                </dd>
+
+                <dt>
+                    Answer 3
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.rep3)
+                </dd>
+
+                <dt>
+                    Correct Answer
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.correctAnswer)
+                </dd>
+
+            </dl>
+        </div>
+        <p>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.idQuestion }) |
+            @Html.ActionLink("Back to List", "Index")
+        </p>
+    </div>
+</section>

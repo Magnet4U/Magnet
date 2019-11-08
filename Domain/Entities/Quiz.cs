@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-   public class Quiz
+    public class Quiz
     {
         [Key]
-        public int  idQuiz { get; set; }
-        public User idUser { get; set; }
-        public int score { get; set; }
+        public int idQuiz { get; set; }
+        public Condidat idCandidat { get; set; }
+        public string libelleQuiz { get; set; }
+        public List<Niveau> MyNiveau { get; set; }
     }
 }
