@@ -39,7 +39,9 @@ namespace Data
         {
             modelBuilder.Configurations.Add(new EntrepriseConfig());
         }
+        
+        
 
-
+        public System.Data.Entity.DbSet<Domain.Entities.Like> Likes { get; set; }
     }
 }

@@ -28,6 +28,7 @@ namespace Domain.Entities
         public System.Guid ActivationCode { get; set; }
         public int MyidEntreprise { get; set; }
         public Entreprise idEntreprise { get; set; }
+        public virtual ICollection<Message> Messages { get; set; }
 
 
 

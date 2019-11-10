@@ -87,3 +87,19 @@ C:\Magnet\Data\obj\Debug\Data.Migrations.initiall.resources
 C:\Magnet\Data\obj\Debug\Data.csproj.GenerateResource.Cache
 C:\Magnet\Data\obj\Debug\Data.Migrations.Ale.resources
 C:\Magnet\Data\obj\Debug\Data.Migrations.Ale_Select.resources
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Data\bin\Debug\Data.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Data\bin\Debug\Data.pdb
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Data\bin\Debug\Domain.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Data\bin\Debug\EntityFramework.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Data\bin\Debug\Domain.pdb
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Data\bin\Debug\Domain.dll.config
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Data\bin\Debug\EntityFramework.xml
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Data\obj\Debug\Data.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Data\obj\Debug\Data.pdb
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Data\obj\Debug\Data.Migrations.ent.resources
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Data\obj\Debug\Data.csproj.GenerateResource.cache
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Data\obj\Debug\Data.Migrations.dislike.resources

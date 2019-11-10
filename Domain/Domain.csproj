@@ -41,6 +41,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -67,6 +68,7 @@
     <Compile Include="Entities\JobRequest.cs" />
     <Compile Include="Entities\Diploma.cs" />
     <Compile Include="Entities\Certification.cs" />
+    <Compile Include="Entities\Like.cs" />
     <Compile Include="Entities\Message.cs" />
     <Compile Include="Entities\Notification.cs" />
     <Compile Include="Entities\Payment.cs" />

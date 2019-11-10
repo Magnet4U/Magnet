@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Domain.Entities.Comment>
+
+@{
+    ViewBag.Title = "Indexx";
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+}
+
+<h2>Commentaire</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.contenuComment)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.date_publication)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.idUser.lastname)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.contenuComment)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.date_publication)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.idUser.lastname)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idComment }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idComment }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idComment })
+        </td>
+    </tr>
+}
+
+</table>

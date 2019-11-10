@@ -100,3 +100,25 @@ C:\Magnet\Console\bin\Debug\EntityFramework.SqlServer.xml
 C:\Magnet\Console\obj\Debug\Console.csprojResolveAssemblyReference.cache
 C:\Magnet\Console\obj\Debug\Console.exe
 C:\Magnet\Console\obj\Debug\Console.pdb
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\Console.exe.config
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\Console.exe
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\Console.pdb
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\Data.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\Domain.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\EntityFramework.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\Service.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\ServicePattern.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\Data.pdb
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\Domain.pdb
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\Domain.dll.config
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\ServicePattern.pdb
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\ServicePattern.dll.config
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\Service.pdb
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\Service.dll.config
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\EntityFramework.xml
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\obj\Debug\Console.csprojAssemblyReference.cache
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\obj\Debug\Console.csproj.CopyComplete
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\obj\Debug\Console.exe
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\obj\Debug\Console.pdb

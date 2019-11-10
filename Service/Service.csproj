@@ -50,9 +50,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="CommentService.cs" />
+    <Compile Include="ICommentsService.cs" />
     <Compile Include="IInterviewService.cs" />
+    <Compile Include="ILikeService.cs" />
+    <Compile Include="IMessageService.cs" />
     <Compile Include="InterviewService.cs" />
+    <Compile Include="IPostUserService.cs" />
+    <Compile Include="IUserService.cs" />
+    <Compile Include="LikeService.cs" />
+    <Compile Include="MessageService.cs" />
+    <Compile Include="PostUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

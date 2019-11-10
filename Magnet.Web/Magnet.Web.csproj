@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -168,9 +169,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CommentsController.cs" />
     <Compile Include="Controllers\EntrepriseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LikesController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\MessagesController.cs" />
+    <Compile Include="Controllers\PostUsersController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Crypto.cs" />
     <Compile Include="Global.asax.cs">
@@ -344,10 +349,31 @@
     <Content Include="Views\User\Registration.cshtml" />
     <Content Include="Views\User\VerifyAccount.cshtml" />
     <Content Include="Views\User\Login.cshtml" />
+    <Content Include="Views\Messages\Create.cshtml" />
+    <Content Include="Views\Messages\Delete.cshtml" />
+    <Content Include="Views\Messages\Details.cshtml" />
+    <Content Include="Views\Messages\Edit.cshtml" />
+    <Content Include="Views\Messages\Index.cshtml" />
+    <Content Include="Views\Comment\Indexx.cshtml" />
+    <Content Include="Views\Comment\Create.cshtml" />
+    <Content Include="Views\Comment\Edit.cshtml" />
+    <Content Include="Views\Comment\Delete.cshtml" />
+    <Content Include="Views\Likes\Create.cshtml" />
+    <Content Include="Views\Likes\Delete.cshtml" />
+    <Content Include="Views\Likes\Details.cshtml" />
+    <Content Include="Views\Likes\Edit.cshtml" />
+    <Content Include="Views\Likes\Index.cshtml" />
+    <Content Include="Views\PostUsers\Create.cshtml" />
+    <Content Include="Views\PostUsers\Delete.cshtml" />
+    <Content Include="Views\PostUsers\Details.cshtml" />
+    <Content Include="Views\PostUsers\Edit.cshtml" />
+    <Content Include="Views\PostUsers\Index.cshtml" />
+    <Content Include="Views\Likes\disCreate.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\Uploads\" />
+    <Folder Include="Content\Upload\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

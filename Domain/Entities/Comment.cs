@@ -16,6 +16,7 @@ namespace Domain.Entities
  
         public PostUser idPostUser
         { get; set; }
+        public User idUser { get; set; }
  
  
 

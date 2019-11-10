@@ -1,0 +1,78 @@
+﻿@model IEnumerable<Domain.Entities.Message>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+}
+
+<h2>Messages</h2>
+<div class="container">
+    <div class="form-group">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon-search"></i></span>
+            <input type="text" id="Search" placeholder="Search" class="form-control" />
+
+        </div>
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(model => model.subject)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.body)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.idUser)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+
+    <td>
+        @Html.DisplayFor(modelItem => item.subject)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.body)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.idUser)
+    </td>
+    <td>
+       
+     
+        @Html.ActionLink("Delete", "Delete", new { id = item.idMessage })
+    </td>
+</tr>
+    }
+
+</table>
+<script src="~/Scripts/jquery-3.2.1.min.js"></script>
+<script>
+        $("#Search").on("keyup", function () {
+            var txtenter = $(this).val();
+            $("table tr").each(function (results) {
+                if (results !== 0) {
+                    var id = $(this).find("td:nth-child(1)").text();
+                    if (id.indexOf(txtenter) !== 0 && id.toLowerCase().indexOf(txtenter.toLowerCase()) < 0) {
+                        $(this).hide();
+                    }
+                    else {
+                        $(this).show();
+                    }
+                }
+            })
+        })
+
+
+
+
+</script>

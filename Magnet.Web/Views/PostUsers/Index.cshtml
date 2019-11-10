@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Domain.Entities.PostUser>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+}
+
+<h2>Post</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@*<table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Picture)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.contenu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.date_publication)
+            </th>
+            <th></th>
+        </tr>
+
+    <section class="site-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-6 col-lg-4 mb-5">
+            <a href="blog-single.html"><img src="images/sq_img_1.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid rounded mb-4"></a>
+            <h3><a href="blog-single.html" class="text-black">7 Factors for Choosing Between Two Jobs</a></h3>
+            <div>April 15, 2019 <span class="mx-2">|</span> <a href="#">2 Comments</a></div>
+          </div>
+*@
+
+@foreach (var item in Model)
+{
+    <section class="site-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <h3><a href="blog-single.html" class="text-black"> @Html.DisplayFor(modelItem => item.contenu)</a></h3>
+                    <div>
+                        @Html.DisplayFor(modelItem => item.date_publication)
+                        <a href="blog-single.html">
+                            @{string path = "~/Content/Upload/" + @item.Picture;}
+
+                            <img src="@Url.Content(path)" width="550px" height="700px" />
+                        </a>
+                        <a href="#">@Html.ActionLink("Commenter", "Create", "Comment", new { id = item.idPostU }, null)</a>
+                    </div> <span class="mx-2">|</span><a href="#">@Html.ActionLink("like", "Create", "Likes", new { id = item.idPostU }, null)</a>
+                    <span class="mx-2">|</span><a href="#">@Html.ActionLink("Dislike", "disCreate", "Likes", new { id = item.idPostU }, null)</a>
+                    
+                    <span class="mx-2">|</span> <a href="#">@Html.ActionLink("Edit", "Edit", new { id = item.idPostU })</a><span class="mx-2">|</span> <a href="#">@Html.ActionLink("Delete", "Delete", new { id = item.idPostU })</a>
+
+
+
+
+                </div>
+                @* <tr>
+
+
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.idPostU }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.idPostU }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.idPostU })
+                        </td>
+                    </tr>
+
+
+                    </table>*@
+
+            </div>
+
+        </div>
+    </section>
+    
+}

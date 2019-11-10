@@ -88,3 +88,22 @@ C:\Magnet\Service\bin\Debug\EntityFramework.SqlServer.xml
 C:\Magnet\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
 C:\Magnet\Service\obj\Debug\Service.dll
 C:\Magnet\Service\obj\Debug\Service.pdb
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\Service.dll.config
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\Service.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\Service.pdb
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\Data.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\Domain.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\EntityFramework.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\ServicePattern.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\Data.pdb
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\Domain.pdb
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\Domain.dll.config
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\ServicePattern.pdb
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\ServicePattern.dll.config
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\EntityFramework.xml
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\obj\Debug\Service.dll
+C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\obj\Debug\Service.pdb
