@@ -1,0 +1,21 @@
+﻿using Domain.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace Magnet.Web.Models
+{
+    public static class Globals
+    {
+        public static double answerscorrect = 0;
+        public static double answerswrong = 0;
+        public static double delayedanswerscorrect = 0;
+        public static double delayedanswerswrong = 0;
+        public static int count = 1;
+        public static List<Question> GlobalQuestionList = new List<Question>();
+        public static List<Quiz> GlobalTestList = new List<Quiz>();
+
+
+    }
+}

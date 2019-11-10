@@ -88,6 +88,7 @@ C:\Magnet\Service\bin\Debug\EntityFramework.SqlServer.xml
 C:\Magnet\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
 C:\Magnet\Service\obj\Debug\Service.dll
 C:\Magnet\Service\obj\Debug\Service.pdb
+<<<<<<< HEAD
 C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\Service.dll.config
 C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\Service.dll
 C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\bin\Debug\Service.pdb
@@ -107,3 +108,45 @@ C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\obj\Debug\Service.csprojAs
 C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\obj\Debug\Service.csproj.CopyComplete
 C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\obj\Debug\Service.dll
 C:\Users\Khadija Abid\Documents\GitHub\Magnet\Service\obj\Debug\Service.pdb
+=======
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\bin\Debug\Service.dll.config
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\bin\Debug\Service.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\bin\Debug\Service.pdb
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\bin\Debug\Data.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\bin\Debug\Domain.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\bin\Debug\EntityFramework.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\bin\Debug\ServicePattern.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\bin\Debug\Data.pdb
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\bin\Debug\Domain.pdb
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\bin\Debug\Domain.dll.config
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\bin\Debug\ServicePattern.pdb
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\bin\Debug\ServicePattern.dll.config
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\bin\Debug\EntityFramework.xml
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\obj\Debug\Service.dll
+C:\Users\Seif Ben Fraj\Documents\GitHub\Magnet\Service\obj\Debug\Service.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\bin\Debug\Service.dll.config
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\bin\Debug\Service.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\bin\Debug\Service.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\bin\Debug\Data.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\bin\Debug\Domain.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\bin\Debug\EntityFramework.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\bin\Debug\ServicePattern.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\bin\Debug\Data.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\bin\Debug\Domain.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\bin\Debug\Domain.dll.config
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\bin\Debug\ServicePattern.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\bin\Debug\ServicePattern.dll.config
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\bin\Debug\EntityFramework.xml
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\obj\Debug\Service.csprojAssemblyReference.cache
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\obj\Debug\Service.csproj.CopyComplete
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\obj\Debug\Service.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Service\obj\Debug\Service.pdb
+>>>>>>> 9bc626a0a90c392357881b484b53ae79ebe9ee43

@@ -70,10 +70,14 @@
     <Compile Include="Entities\Certification.cs" />
     <Compile Include="Entities\Like.cs" />
     <Compile Include="Entities\Message.cs" />
+    <Compile Include="Entities\Niveau.cs" />
     <Compile Include="Entities\Notification.cs" />
+    <Compile Include="Entities\PackOffe.cs" />
     <Compile Include="Entities\Payment.cs" />
     <Compile Include="Entities\PostUser.cs" />
+    <Compile Include="Entities\Question.cs" />
     <Compile Include="Entities\Quiz.cs" />
+    <Compile Include="Entities\Response.cs" />
     <Compile Include="Entities\Subscribe.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Entities\UserLogin.cs" />

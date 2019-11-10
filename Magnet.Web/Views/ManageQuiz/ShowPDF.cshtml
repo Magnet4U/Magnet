@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Domain.Entities.Question>
+
+@{
+    ViewBag.Title = "ShowPDF";
+}
+
+<h6>Test for Printing</h6> <br />
+<h2><em>@ViewBag.titlefortest</em></h2><br />
+
+@{
+    int i = 0;
+    foreach (var item in Model)
+    {
+        i = i + 1;
+        <em>--------------------------------</em><br />
+        <strong><em>Question @i: </em>@item.description?</strong><br />
+        <em>Correct Answer. </em>@item.correctAnswer <br />
+        <em>1st choice. </em>@item.rep1 <br />
+        <em>2nd choice. </em>@item.rep2 <br />
+        <em>3rd choice. </em>@item.rep3 <br />
+        <br />
+
+
+    }
+
+
+}

@@ -1,0 +1,73 @@
+﻿@model Domain.Entities.Quiz
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+
+<!-- HOME -->
+
+<section class="section-hero overlay inner-page bg-image" style="background-image: url('images/hero_1.jpg');" id="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="text-white font-weight-bold">Manage Quiz</h1>
+                <div class="custom-breadcrumbs">
+                    <a href="#">Home</a> <span class="mx-2 slash">/</span>
+                    <a href="#">Quiz</a> <span class="mx-2 slash">/</span>
+                    <span class="text-white"><strong>Manage Quiz</strong></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="site-section">
+
+    <div class="container">
+
+
+
+        <h2>Edit Quiz</h2>
+        <br />
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.idQuiz)
+
+                <div class="form-group">
+                    Libelle Quiz
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.libelleQuiz, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.libelleQuiz, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                @*<div class="form-group col-md-12">
+                        <div class="col-md-2">
+
+                        </div>
+                        <div class="col-md-10">
+                            <input type="checkbox" name="Public" value="True" /> Public<br />
+                        </div>
+                    </div>
+
+                    <br /><br />*@
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Save" class="btn btn-default" />
+                    </div>
+                </div>
+            </div>
+        }
+
+        <div>
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+
+
+    </div>
+</section>

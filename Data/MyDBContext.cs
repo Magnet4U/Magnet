@@ -30,10 +30,14 @@ namespace Data
         public DbSet<Payment> DBSetPayment { get; set; }
         public DbSet<PostUser> DBSetPostUser { get; set; }
         public DbSet<Quiz> DBSetQuiz { get; set; }
+        public DbSet<Question> DBSetQuestion { get; set; }
+        public DbSet<Niveau> DBSetNiveau { get; set; }
         public DbSet<Subscribe> DBSetSubscribe { get; set; }
         public DbSet<User> DBSetUser { get; set; }
         public DbSet<EntrepriseLogin> DBSetEntrepriseLogin { get; set; }
         public DbSet<UserLogin> DBSetUserLogin { get; set; }
+        public DbSet<PackOffe> DBSetPackOffe { get; set; }
+        public DbSet<Response> DBSetResponse { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
