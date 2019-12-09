@@ -100,6 +100,7 @@ C:\Magnet\Console\bin\Debug\EntityFramework.SqlServer.xml
 C:\Magnet\Console\obj\Debug\Console.csprojResolveAssemblyReference.cache
 C:\Magnet\Console\obj\Debug\Console.exe
 C:\Magnet\Console\obj\Debug\Console.pdb
+<<<<<<< HEAD
 C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\Console.exe.config
 C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\Console.exe
 C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\bin\Debug\Console.pdb
@@ -122,3 +123,28 @@ C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\obj\Debug\Console.csprojAs
 C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\obj\Debug\Console.csproj.CopyComplete
 C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\obj\Debug\Console.exe
 C:\Users\Khadija Abid\Documents\GitHub\Magnet\Console\obj\Debug\Console.pdb
+=======
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\Console.exe.config
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\Console.exe
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\Console.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\Data.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\Domain.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\EntityFramework.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\EntityFramework.SqlServer.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\Service.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\ServicePattern.dll
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\Data.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\Domain.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\Domain.dll.config
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\ServicePattern.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\ServicePattern.dll.config
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\Service.pdb
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\Service.dll.config
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\EntityFramework.xml
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\bin\Debug\EntityFramework.SqlServer.xml
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\obj\Debug\Console.csprojAssemblyReference.cache
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\obj\Debug\Console.csproj.CoreCompileInputs.cache
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\obj\Debug\Console.csproj.CopyComplete
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\obj\Debug\Console.exe
+D:\MOOTAZ\4BI\PIDEV\PI\Magnet\Console\obj\Debug\Console.pdb
+>>>>>>> 9bc626a0a90c392357881b484b53ae79ebe9ee43
